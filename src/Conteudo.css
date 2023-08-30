@@ -1,0 +1,13 @@
+img{
+    width:200px;
+    animation: Sonic 3s infinite;
+}
+
+@keyframes Sonic{
+    from{
+        transform:translateY(0)
+    }
+    to {
+        transform: translateY(100px);
+    }
+}
